@@ -14,7 +14,7 @@
 <script type="text/javascript" src="js/pin.js"></script>
 <script type="text/javascript">
 	if (getCookie("pa-token") != "") {
-		window.location = "https://pinterestautomatic.herokuapp.com/pin.html?state=cookie";
+		window.location = "index.html";
 	} else if (getCookie("pa-token") == "") {
 		window.location = "https://api.pinterest.com/oauth/?response_type=code&redirect_uri=https://pinterestautomatic.herokuapp.com/pin.html&client_id=4844984301336407368&scope=read_public,write_public&state=secret"
 	}
